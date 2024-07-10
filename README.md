@@ -1,30 +1,19 @@
-# React + TypeScript + Vite
+# NLW Journey React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esse é a minha implementação do projeto NLW Journey da RocketSeat seguindo a trilha React!
 
-Currently, two official plugins are available:
+## Features adicionadas:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Display de link usando api.
+- Habilidade de adicionar novos links.
+- Habilidade de convidar novos participantes que não estão na lista de convidados.
 
-## Expanding the ESLint configuration
+## Screenshots
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![homepage.png](public/homepage.png)
 
-- Configure the top-level `parserOptions` property like this:
+![trip-details.png](public/trip-details.png)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+![link.png](public/link.png)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![email.png](public/email.png)
